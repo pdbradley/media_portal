@@ -1,0 +1,13 @@
+Goal:   media portal for church in Atlanta
+
+MVP requirements
+- message model that allows a user to upload mp3 (to amazon s3) with message description, etc
+- Hierarchical interface that allows users to listen to messages by year
+- Hierarchical interface that allows users to listen to messages by conference title
+
+
+
+Post MVP wishlist
+- site remembers where you are so you can resume a message
+
+
