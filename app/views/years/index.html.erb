@@ -1,0 +1,8 @@
+<h2>Conferences by Year</h2>
+
+
+<% @conference_years.each do |year| %>
+  <%= link_to year, conferences_path(year: year) %>
+<% end %>
+
+

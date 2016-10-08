@@ -11,3 +11,12 @@ Post MVP wishlist
 - site remembers where you are so you can resume a message
 
 
+User Scenario 1:
+- there are conferences from multiple years (2015, 2016)
+- User sees a link "By Year"
+- User clicks link and should see all the years that conferences were given
+
+User Scenario 2:
+- there are conferences with multiple titles
+- User sees a link "By Title"
+- User clicks link and should see all the titles for all the conferences
