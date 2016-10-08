@@ -2,7 +2,11 @@ class ConferencesController < ApplicationController
   before_action :set_conference, only: [:show, :edit, :update, :destroy]
 
   def index
-    @conferences = Conference.all
+    if params[:year] 
+      @conferences = Conference.where(year: params[:year])
+    else
+      @conferences = Conference.all
+    end
   end
 
   def show
