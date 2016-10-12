@@ -20,3 +20,7 @@ User Scenario 2:
 - there are conferences with multiple titles
 - User sees a link "By Title"
 - User clicks link and should see all the titles for all the conferences
+
+trouble with paperclip?  try this:
+http://rubythursday.com/episodes/ruby-snack-27-upgrade-paperclip-and-aws-sdk-in-prep-for-rails-5
+
